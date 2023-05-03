@@ -3,7 +3,7 @@ package actividad2;
 public class Empleado {
 
 	
-	private String nombre;
+	protected String nombre;
 
 	public Empleado() {
 		super();
@@ -25,7 +25,7 @@ public class Empleado {
 
 	@Override
 	public String toString() {
-		return "Empleado [nombre=" + nombre + "]";
+		return "Empleado"+nombre;
 	}
 	
 	

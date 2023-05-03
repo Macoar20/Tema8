@@ -11,15 +11,15 @@ public class Main {
 		Electrodomestico array[] = new Electrodomestico [10];
 
 		array [0] = new Lavadora(50,"Negro","C",70,40);
-		array [1] = new Television();
+		array [1] = new Television(60, "Blanco","E",34,32,true);
 		array [2] = new Electrodomestico();
-		array [3] = new Television();
+		array [3] = new Television(60, "Blanco","E",34,32,true);
 		array [4] = new Electrodomestico(); 
-		array [5] = new Television();
-		array [6] = new Lavadora();
+		array [5] = new Television(20, "Blanco","E",34,32,true);
+		array [6] = new Lavadora(80,"Negro","C",90,90);
 		array [7] = new Electrodomestico();
-		array [8] = new Lavadora();
-		array [9] = new Television();
+		array [8] = new Lavadora(20,"Negro","C",20,10);
+		array [9] = new Television(30, "Azul","E",34,32,false);
 		
 		
 		for (int i = 0; i < array.length; i++) {

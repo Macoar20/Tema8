@@ -4,12 +4,16 @@ package actividad1;
 
 		private int Segundos;
 		
-		
+		/*
+		 * 
+		 */
 		public HoraExacta(int hora, int minutos, int segundos) {
 			super(hora, minutos);
 			this.Segundos = segundos;
 		}
-		
+		/*
+		 * 
+		 */
 		public boolean setSegundo(int segundos) {
 			
 			boolean resm = false;
@@ -32,8 +36,10 @@ package actividad1;
 	        }
 	    }
 
-	    @Override
-	    public String toString() {
-	        return String.format("%02d:%02d:%02d", super.Hora, super.Minutos, Segundos);
-	    }
+		@Override
+		public String toString() {
+			return "Segundos";
+		}
+
+	    
 }

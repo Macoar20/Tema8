@@ -1,12 +1,20 @@
 package actividad1;
 
 import actividad1.Hora;
-
+/**
+ * 
+ * @author Macocar
+ *
+ */
 public class Hora {
-
+	/*
+	 * Variable hora y minutos
+	 */
 	int Hora;
 	int Minutos;
-	
+	/*
+	 * 
+	 */
 	public Hora (int hora, int minutos) {
 	
 		if (hora >= 0 && hora <= 23) {
@@ -16,7 +24,9 @@ public class Hora {
 		this.Minutos = minutos;
 		}
 	}
-	
+	/*
+	 * 
+	 */
 	public void inc() {
 		 if (Minutos < 60) {
 	            Minutos++;
@@ -24,7 +34,9 @@ public class Hora {
 	            Minutos = 0;
 	        }	
 	}
-	
+	/*
+	 * 
+	 */
 	public boolean setMinutos(int minutos) {
 		
 		boolean modificacion = false;
@@ -37,7 +49,9 @@ public class Hora {
 		return modificacion;
 		
 	}
-	
+	/*
+	 * 
+	 */
 	public boolean setHora(int hora) {
 		
 		boolean comp = false;
